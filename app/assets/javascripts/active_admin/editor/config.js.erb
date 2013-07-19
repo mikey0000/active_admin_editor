@@ -1,6 +1,7 @@
 ;(function(window) {
   window.AA = (window.AA || {})
   var config = window.AA.editor_config = (window.AA.editor_config || {})
+  config.useLineBreaks = false
 
   <% %w(aws_access_key_id s3_bucket storage_dir).each do |option| %>
   config.<%= option %> = '<%= ActiveAdmin::Editor.configuration.send(option.to_sym) %>'
