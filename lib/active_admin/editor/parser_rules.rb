@@ -42,6 +42,7 @@ module ActiveAdmin
         'wysiwyg-color-aqua' => 1,
         'wysiwyg-color-black' => 1,
         'wysiwyg-color-blue' => 1,
+        'wysiwyg-color-orange' => 1,
         'wysiwyg-color-fuchsia' => 1,
         'wysiwyg-color-gray' => 1,
         'wysiwyg-color-green' => 1,
@@ -388,9 +389,6 @@ module ActiveAdmin
           'check_attributes' => {
             'cite' => 'url'
           }
-        },
-        'style' => {
-          'remove' => 1
         },
         'device' => {
           'remove' => 1
